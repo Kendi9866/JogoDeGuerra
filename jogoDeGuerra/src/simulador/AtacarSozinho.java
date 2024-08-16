@@ -1,3 +1,4 @@
+
 package simulador;
 
 public class AtacarSozinho implements Strategy{

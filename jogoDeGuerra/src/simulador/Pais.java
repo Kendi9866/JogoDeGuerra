@@ -8,12 +8,15 @@ public class Pais {
 	private String nome;
 	private boolean armaNuclear;
 	private Strategy estrategia;
+	private double credibilidade = 100, economia, territorio;
 	
-	public Pais(int quantidade, String nome, boolean armaNuclear) {
+	public Pais(int quantidade, String nome, boolean armaNuclear, double economia, double territorio) {
 		super();
 		this.quantidadeSoldados = quantidade;
 		this.nome = nome;
 		this.armaNuclear = armaNuclear;
+		this.economia = economia;
+		this.territorio = territorio;
 	}
 	
 	public void setEstrategia(Strategy estrategia) {
